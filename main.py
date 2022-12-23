@@ -13,6 +13,6 @@ app.config(bg='green')
 
 entry = Entry(bg='white',width=20)
 entry.pack()
-button = Button(app,bg='red',width=20,text='LANCEZZ!!!!!!',command=pile_ou_face)
+button = Button(app,bg='red',width=20,text='Start',command=pile_ou_face)
 button.pack(expand=YES)
 app.mainloop()
